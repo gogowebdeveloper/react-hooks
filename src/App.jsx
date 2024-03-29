@@ -10,6 +10,7 @@ import Parent1 from './components/Context/Parent1'
 import Data_Share from './components/Context/UsingContext/Data_Share'
 import Children1 from './components/Context/UsingContext/Children1'
 import ParentContext from './components/Context/FetchApi_useContext/ParentContext'
+import Axios_Api from './services/Axios_Api'
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
     <>
     <div><Counter/></div>
     <hr/>
-    <div><Toggle/></div>
+    {/* <div><Toggle/></div> */}
     {/* <div><Api_Fetch/></div> */}
     {/* <div>
     <Parent1/>
@@ -25,7 +26,8 @@ function App() {
     {/* <div><Data_Share/></div> */}
     {/* <div><Child1/></div> */}
     {/* <div><Fetch/></div> */}
-    <div><ParentContext/></div>
+    {/* <div><ParentContext/></div> */}
+    <div><Axios_Api/></div>
 
     </>
   )

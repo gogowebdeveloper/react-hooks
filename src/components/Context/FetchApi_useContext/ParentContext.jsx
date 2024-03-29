@@ -14,8 +14,7 @@ function ParentContext() {
         }
         catch(err){
             console.error("ERROR");
-        }
-        
+        }        
 
     }
     useEffect(()=>{
